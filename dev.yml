@@ -1,0 +1,10 @@
+---
+- hosts: app-server
+  user: r00t
+  roles:
+     - common
+     - java7
+     - web
+     - linkbaiter
+     - api
+     - soapbox

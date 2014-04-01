@@ -1,0 +1,5 @@
+---
+  - name: API | Restart {{item}}
+    action: service name={{item}} state=restarted
+    sudo: yes
+    with_items: applist
