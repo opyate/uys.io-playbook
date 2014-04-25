@@ -2,7 +2,7 @@ server {
   server_name numbertwo.uys.io;
 
   location / {
-    proxy_pass ip-10-72-134-62.eu-west-1.compute.internal ;
+    proxy_pass http://ip-10-72-134-62.eu-west-1.compute.internal ;
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header Host $http_host;
   }
