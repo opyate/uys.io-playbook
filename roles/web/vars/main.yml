@@ -4,4 +4,5 @@ websites:
   - { key: bookme.uys.io, desc: "The pro face of the whole operation, via which one can book me for work." }
   - { key: port8000.uys.io, desc: "Not always open..." }
   - { key: wedding.uys.io, desc: "Nothing to see here. Move on, please." } 
+  - { key: numbertwo.uys.io, desc: "My right-hand man -- Huginn." } 
 
